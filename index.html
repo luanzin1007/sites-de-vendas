@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sneaker Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🔥 Sneaker Store</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Catálogo</a>
+      <a href="#">Contato</a>
+      <a href="#">Carrinho 🛒</a>
+    </nav>
+  </header>
+
+  <main class="produtos">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1606813902919-d3a582c8ff10?w=500" alt="Nike Air Max">
+      <h3>Nike Air Max</h3>
+      <p class="preco">R$ 499,90</p>
+      <button onclick="addCarrinho('Nike Air Max', 499.90)">Comprar</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1614251059424-2b78fd5c1a3d?w=500" alt="Adidas Ultraboost">
+      <h3>Adidas Ultraboost</h3>
+      <p class="preco">R$ 599,90</p>
+      <button onclick="addCarrinho('Adidas Ultraboost', 599.90)">Comprar</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Sneaker Store - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
