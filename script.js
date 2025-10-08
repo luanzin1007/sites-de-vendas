@@ -38,7 +38,8 @@ function mostrarCarrinho() {
   mensagem += `%0ATotal: R$ ${total.toFixed(2)}`;
 
   // ⚠️ Troque o número pelo seu WhatsApp no formato 55DDDNÚMERO
-  document.getElementById("checkout").href = "https://wa.me/55SEUNUMERO?text=" + mensagem;
+  document.getElementById("checkout").href = "https://wa.me/5511998765432
+ ?text=" + mensagem;
 }
 
 // Remover item do carrinho
