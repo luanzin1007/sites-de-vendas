@@ -58,3 +58,9 @@ footer {
   color: white;
   margin-top: 20px;
 }
+.card img {
+  width: 100%;  /* Faz a imagem ocupar 100% da largura da card */
+  max-width: 300px; /* Limita a largura máxima a 300px */
+  height: auto; /* Ajusta a altura proporcional à largura */
+  object-fit: cover; /* Faz a imagem preencher a área sem distorcer */
+}
